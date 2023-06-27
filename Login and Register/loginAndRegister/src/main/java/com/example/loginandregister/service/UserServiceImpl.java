@@ -1,5 +1,6 @@
 package com.example.loginandregister.service;
 
+import com.example.loginandregister.dto.UserDto;
 import com.example.loginandregister.model.Role;
 import com.example.loginandregister.model.User;
 import com.example.loginandregister.repository.RoleRepository;
