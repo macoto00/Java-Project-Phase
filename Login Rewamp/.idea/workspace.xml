@@ -5,11 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="996e6076-b3c3-4208-9b33-d3b9626a6eff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Login and Registration/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/LoginAndRegistrationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/config/SpringSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/java/com/example/loginandregistration/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/main/resources/templates/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login Rewamp/loginAndRegistration/src/test/java/com/example/loginandregistration/LoginAndRegistrationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/RegistrationLoginDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/config/SpringSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/java/com/example/registrationlogindemo/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/main/resources/templates/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/src/test/java/com/example/registrationlogindemo/RegistrationLoginDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/RegistrationLoginDemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/config/SpringSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/com/example/registrationlogindemo/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Login and Registration/target/classes/templates/users.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,32 +109,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/macou/OneDrive/Plocha/test/Java-Project-Phase/Login Rewamp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;446f352ac9029f810dd80378b914c21e&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/macou/OneDrive/Plocha/test/Java-Project-Phase/Login and Registration (Gradle)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "446f352ac9029f810dd80378b914c21e",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\macou\OneDrive\Plocha\test\Java-Project-Phase\Login and Register\loginAndRegister\src\main\resources\templates" />
@@ -101,6 +166,8 @@
       <workItem from="1687878556086" duration="203000" />
       <workItem from="1687878778118" duration="7000" />
       <workItem from="1687889105625" duration="89000" />
+      <workItem from="1687935765596" duration="72000" />
+      <workItem from="1687937411265" duration="39000" />
     </task>
     <servers />
   </component>
