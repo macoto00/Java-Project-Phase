@@ -61,8 +61,8 @@ public class AuthController {
         List<UserDto> users = userService.findAllUsers();
         model.addAttribute("users", users);
 
-        String loggedInUserEmail = principal.getName(); // Assuming the email is used as the username for authentication
-        User loggedInUser = userService.findByEmail(loggedInUserEmail); // Fetch the logged-in user from the service
+        String loggedInUserEmail = principal.getName();
+        User loggedInUser = userService.findByEmail(loggedInUserEmail);
 
         model.addAttribute("loggedInUserEmail", loggedInUser.getEmail());
 
