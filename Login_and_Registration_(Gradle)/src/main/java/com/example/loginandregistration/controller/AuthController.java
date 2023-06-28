@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.security.Principal;
 import java.util.List;
 
 @Controller
@@ -56,9 +57,16 @@ public class AuthController {
     }
 
     @GetMapping("/users")
-    public String listRegisteredUsers(Model model){
+    public String listRegisteredUsers(Model model, Principal principal) {
         List<UserDto> users = userService.findAllUsers();
         model.addAttribute("users", users);
+
+        String loggedInUserEmail = principal.getName(); // Assuming the email is used as the username for authentication
+        User loggedInUser = userService.findByEmail(loggedInUserEmail); // Fetch the logged-in user from the service
+
+        model.addAttribute("loggedInUserEmail", loggedInUser.getEmail());
+
         return "users";
     }
+
 }
