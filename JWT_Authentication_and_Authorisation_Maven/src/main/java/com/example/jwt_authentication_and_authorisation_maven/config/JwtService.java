@@ -3,13 +3,13 @@ package com.example.jwt_authentication_and_authorisation_maven.config;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import java.security.Key;
+import java.security.KeyPair;
+import java.security.PrivateKey;
+import java.security.PublicKey;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,9 +17,9 @@ import java.util.function.Function;
 
 @Service
 public class JwtService {
-
-    @Value("${secretKey}")
-    private static String SECRET_KEY;
+    private static final KeyPair KEY_PAIR = Keys.keyPairFor(SignatureAlgorithm.ES256);
+    private static final PrivateKey PRIVATE_KEY = KEY_PAIR.getPrivate();
+    private static final PublicKey PUBLIC_KEY = KEY_PAIR.getPublic();
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
@@ -44,7 +44,7 @@ public class JwtService {
                 .setSubject(userDetails.getUsername())
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + 1000 * 60 * 24))
-                .signWith(getSignInKey(), SignatureAlgorithm.ES256)
+                .signWith(PRIVATE_KEY, SignatureAlgorithm.ES256)
                 .compact();
     }
 
@@ -64,15 +64,10 @@ public class JwtService {
     private Claims extractAllClaims(String token) {
         return Jwts
                 .parserBuilder()
-                .setSigningKey(getSignInKey())
+                .setSigningKey(PUBLIC_KEY)
                 .build()
                 .parseClaimsJwt(token)
                 .getBody();
     }
-
-    private Key getSignInKey() {
-        byte[] keyBytes = Decoders.BASE64.decode(SECRET_KEY);
-        return Keys.hmacShaKeyFor(keyBytes);
-    }
-
 }
+
