@@ -6,3 +6,4 @@ Working with Gradle or Maven
 
 - Login and Registration simple Web Page
 - JWT Authentication and Authorisation (Gradle, Maven)
+- Spring Boot Unit Testing with Mockito
